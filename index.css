@@ -1,0 +1,110 @@
+p, h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 300%;
+}
+
+h3{
+    font-size: 200%;
+    padding-top: 40px;
+}
+
+p{
+    font-size: 120%;
+}
+
+.container {
+    padding: 20px;
+}
+ 
+#map {
+    height: 450px;
+}
+
+#ecoMap{
+	height: 250px
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+
+.legend i {
+    width: 18px;
+    height: 14px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+a {
+    color: #000000;
+    font-weight:bold;
+}
+
+a:hover {
+    color: #FF00CC;
+}
+
+.circle {
+	border-radius: 50%;
+	background-color: #5856C7;
+	opacity:0.3;
+	border:	2px solid #001498;
+	float: left;
+}
+
+.about {
+    max-width: 1100px;
+}
+
+.text-muted {
+    background-color:  #000;/*#FF00CC;*/
+    color:#FFFFFF;
+    -webkit-transition: background-color 0.7s;
+    -moz-transition:    background-color 0.7s;
+    -ms-transition:     background-color 0.7s;
+    -o-transition:      background-color 0.7s;
+    transition:         background-color 0.7s;
+}
+
+.text-muted:hover{
+    background-color: #FF00CC;
+}
+
+.titleline{
+    border-color:#FF00CC;
+}
+
+.profPic {
+    padding-bottom: 20px;
+    max-width: 140px;
+    margin: 0 auto;
+    display: block;
+}
+
+.content {
+    padding-bottom: 30px;
+}
+
+h3 {
+    padding-top: 10px;
+}
