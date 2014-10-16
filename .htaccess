@@ -1,5 +1,4 @@
 RewriteEngine on
 RewriteCond %{HTTP_REFERER} semalt\.com [NC]
-RewriteCond %{HTTP_REFERER} semalt\.semalt\.com [NC]
 RewriteCond %{HTTP_REFERER} savetubevideo\.com [NC]
 RewriteRule .* - [F]
