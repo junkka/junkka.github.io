@@ -70,6 +70,9 @@ a:hover {
 	opacity:0.3;
 	border:	2px solid #001498;
 	float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
 }
 
 .about {
@@ -92,6 +95,17 @@ a:hover {
 
 .titleline{
     border-color:#FF00CC;
+}
+
+.proj-pic{
+    max-width: 50px;
+    float:left;
+    margin-right: 16px;
+    border:1px solid #757575;
+}
+
+.project-row{
+    min-height: 58px;
 }
 
 .profPic {
